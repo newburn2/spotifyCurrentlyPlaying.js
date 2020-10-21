@@ -12,6 +12,12 @@
     @media all and (min-width: $bp-l) {
         padding: 1rem;
     }
+	$('.js-current-track').spotify({
+    width: '100%',
+    height: 400,
+    username: 'JoshNewburn',
+    api_key: '1ca49aeac7dc6d6864b20e4163fb8556'
+});
 }
 
 // Grid container
